@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/RxSwiftCommunity/RxAlamofire.git", :tag => s.version }
   s.swift_version = "5.0"
 
-  s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.10"
-  s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = "10.0"
+  s.osx.deployment_target = "10.12"
+  s.tvos.deployment_target = "10.0"
   s.watchos.deployment_target = "3.0"
 
   s.requires_arc = true
@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
 
   s.subspec "Core" do |ss|
     ss.source_files = "Sources/*.swift"
-    ss.dependency "RxSwift", "~> 5.0"
-    ss.dependency "Alamofire", "~> 4.8"
+    ss.dependency "RxSwift", "~> 5.1"
+    ss.dependency "Alamofire", "~> 5.1"
     ss.framework = "Foundation"
   end
 
   s.subspec "RxCocoa" do |ss|
     ss.source_files = "Sources/Cocoa/*.swift"
-    ss.dependency "RxCocoa", "~> 5.0"
+    ss.dependency "RxCocoa", "~> 5.1"
     ss.dependency "RxAlamofire/Core"
   end
 end
