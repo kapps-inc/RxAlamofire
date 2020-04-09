@@ -678,22 +678,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxAlamofire-tvOS-Example/Pods-RxAlamofire-tvOS-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa-tvOS/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay-tvOS/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RxAlamofire-tvOS-Example/Pods-RxAlamofire-tvOS-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RxAlamofire-tvOS-Example/Pods-RxAlamofire-tvOS-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -772,22 +761,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxAlamofire-iOS-Example/Pods-RxAlamofire-iOS-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa-iOS/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay-iOS/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift-iOS/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RxAlamofire-iOS-Example/Pods-RxAlamofire-iOS-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RxAlamofire-iOS-Example/Pods-RxAlamofire-iOS-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
